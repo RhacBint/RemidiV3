@@ -107,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Gagal koneksi server. Cek internet.", Toast.LENGTH_SHORT).show();
                 }
         ) {
-            // BAGIAN TERPENTING: Mengirim data sebagai $_POST
+            // BAGIA TERPENTING: Mengirim data sebagai $_POST
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<>();
